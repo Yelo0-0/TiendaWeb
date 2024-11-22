@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using TiendaWeb.Models;
 
 namespace TiendaWeb.Controllers;
-
+ [Area("Public")]
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
