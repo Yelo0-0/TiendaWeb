@@ -10,7 +10,7 @@ public class ApplicationDbContext : IdentityDbContext
         : base(options)
     {
     }
-    public DbSet<Categorias> Categorias{get; set;}
-    public DbSet<Productos> Productos{get; set;}
+    public DbSet<Categorias> Categorias{ get; set; }
+    public DbSet<Productos> Productos{ get; set; }
 
 }
